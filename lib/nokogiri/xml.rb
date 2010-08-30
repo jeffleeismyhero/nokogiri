@@ -38,7 +38,7 @@ module Nokogiri
     class << self
       ###
       # Parse an XML document using the Nokogiri::XML::Reader API.  See
-      # Nokogiri::XML::Reader for mor information
+      # Nokogiri::XML::Reader for more information
       def Reader string_or_io, url = nil, encoding = nil, options = ParseOptions::STRICT
 
         options = Nokogiri::XML::ParseOptions.new(options) if Fixnum === options
